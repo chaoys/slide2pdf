@@ -1,0 +1,23 @@
+#container {
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 20%
+}
+#slideurl {
+	width: 90%;
+	box-sizing:border-box;
+	line-height: 30px;
+}
+#ok {
+	line-height: 30px;
+}
+#output {
+	width: 100%;
+}
+#pdfurl {
+	color: red;
+}
+#error {
+	color: red;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create pdf from slideshare.net</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/slide2pdf/app.css">
+</head>
+<body>
+<div id="container">
+	<form action="/do" method="post">
+	<div>
+		<input type="text" id="slideurl" name="slideurl">
+		<button type="submit" id="ok">OK</button>
+	</div>
+	</form>
+	<div id="output">
+		<a href="{{ pdflink }}" id="pdfurl">Click me</a>
+	</div>
+</div>
+</body>
+</html>
